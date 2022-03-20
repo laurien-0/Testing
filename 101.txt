@@ -1,0 +1,12 @@
+Every time you create a directory inside the /git directory
+Create the corresponding empty repository on GitHub
+
+1. git init
+2. git remote add origin git@github.com:laurien-0/repo_name.git
+   OR git remote add origin https://github.com/laurien-0/repo_name.git
+   [git remote remove origin if you make a mistake here]
+3. create files in directory
+4. git add filename.fileex
+   git commit -a -m "Message"
+5. git push -u origin master
+   after first time - just git push
